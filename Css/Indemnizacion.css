@@ -1,0 +1,24 @@
+
+.fb, .x, .ig , .yt, .lk{
+    height: 70px;
+    width: 80px;
+    }
+    
+    .imagenintecap {
+        width: 200px;
+    }
+
+    .border {
+        padding: 20px; 
+    }
+
+#sueldoLiquidoContainer {
+    margin-top: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+body{
+    background-color: slategray;
+}

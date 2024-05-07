@@ -1,0 +1,31 @@
+ /* Tamaño de las imagenes de redes sociales*/ 
+.fb, .x, .ig , .yt, .lk{
+height: 70px;
+width: 80px;
+}
+
+.imagenintecap {
+    width: 200px;
+}
+ 
+.mission-box, .map-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+   
+.hola{
+border: 1px solid #ccc; padding: 20px; margin-bottom: 20px; text-align: center;
+height: 380px;
+}
+
+.valores{
+    border: 1px solid #ccc; padding: 20px; margin-bottom: 20px; text-align: center;
+height: 380px;
+}
+
+body{
+    background-color: slategray;
+}

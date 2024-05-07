@@ -1,0 +1,36 @@
+ /* Tamaño de las imagenes de redes sociales*/ 
+.fb, .x, .ig , .yt, .lk{
+    height: 70px;
+    width: 80px;
+    }
+
+    .imagenintecap {
+        width: 150px;
+    }
+
+body {
+    padding-top: 50px;
+}
+
+#formulario, #cuadroDerecho {
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#listaEmpleados{
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+   
+}
+
+#cuadroDerecho {
+ 
+    top: 0;
+    right: 0;
+    width: 300px; 
+    }
+
+    body{
+        background-color: slategray;
+    }

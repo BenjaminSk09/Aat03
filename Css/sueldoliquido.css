@@ -1,0 +1,17 @@
+
+ .fb, .x, .ig , .yt, .lk{
+    height: 70px;
+    width: 80px;
+    }
+    
+    .imagenintecap {
+        width: 200px;
+    }
+
+    .border {
+        padding: 20px; 
+    }
+    
+    body{
+        background-color: slategray;
+    }

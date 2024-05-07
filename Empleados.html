@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Empleados</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+ <link rel="stylesheet" href="Css/empleados.css">
+</head>
+<body class="container-xl">
+   <!--header con botones y logo -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="https://cdag.com.gt/wp-content/uploads/2019/11/intecap.jpg" alt="Imagen Izquierda"
+          class="imagenintecap">
+      </div>
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col">
+            <a href="#" id="redSocial1"><img
+                src="https://static.vecteezy.com/system/resources/previews/013/901/773/non_2x/facebook-icon-ios-facebook-social-media-logo-on-white-background-free-free-vector.jpg"
+                class="fb" alt="Red Social 1"></a>
+          </div>
+          <div class="col">
+            <a href="#" id="redSocial2"><img
+                src="https://img.freepik.com/vector-gratis/twitter-nuevo-logotipo-2023-x-vector-fondo-blanco_1017-45422.jpg?size=338&ext=jpg&ga=GA1.1.1687694167.1714262400&semt=sph"
+                class="x" alt="Red Social 2"></a>
+          </div>
+          <div class="col">
+            <a href="#" id="redSocial3"><img
+                src="https://www.internetmatters.org/wp-content/uploads/2020/01/instagradientlogo-no-background.png"
+                class="ig" alt="Red Social 3"></a>
+          </div>
+          <div class="col">
+            <a href="#" id="redSocial4"><img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/YouTube_social_white_square_%282017%29.svg/1200px-YouTube_social_white_square_%282017%29.svg.png"
+                class="yt" alt="Red Social 4"></a>
+          </div>
+          <div class="col">
+            <a href="#" id="redSocial5"><img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAllBMVEUMZMX///8AYcQAWcFDf8nL3PIAWrzQ3vMAYcI0eclZjtAucslAgsz6/v3x9/sgbclOhM8AX8QAYsAAX70AV70AWMLm7vgAXb4sdsw5fsoRbsVmltK6z+iUt+AMZcGDrN3c6fNvnddiltWqwuPA0+r0+vyOrt+lweR9pduuyueUst9Lh81pldd1mtYdbcunxOXO4u7Z4fGRyVlRAAAEKUlEQVR4nO3ce1faMBzG8SblEpSCiUUuQrkMhsCc+v7f3Ko4KjW/yLY0WXOez9mf4Ml3vSW1NYoAAAAAAAAAAAAAAAAAAAAAAAAAAADgYiriIsqU72FURcapGnXHk5aMue+xVCCT6n56x960Z2OpMt8jsozz+Xve0Xqc+h6SXbKzYOeSfex7UBap+J591lThHI3awPxw5KGcVFUj0RayaRrI6UaUj8GTpfA9NivknApkvTC2YdwjC9lc+h6dBWpFB7JFCIXx1FDIRr6HZ0Fq2EkZewjgXNMnLhVH34a+x/fPeMdYOK3/gchvTIFsXf/ZKR+bC+u/DcW1cS/d1f84jFobU+H3ANYXadNU2PU9PAvkd0Ngz/forMgMhU/1P5Xm4h0ZmHQCOAzz68WEPNdsg9iE+ZH4QATeBTApPYqf9PvoKIh99E2qOxQ3jVvf47JHDT5fMl5GAQW+3tNvnF/4N3shwrhJc8Ljw/Q0Q13MJ4GcRc8IORjP99vZfpWlQe2gH3EZx7Gs/4IJAADqQ3DJX/+FM38vqHyKlA5Hhx+Pj49X43468P34CheEiz9Z+pTMlrvFaQ6YbNrblRpKf6vNbHRNKX2yT/kwSVd5XluzGGs//Ew9NfIGS/RYs3X2yUGzp7dpnMYu+zPql1mbp46f+XxeSCkVxrpt8+bmWJgJOTPeYP7m5QkWi4Wye0d94t3m3sNmtFao5OyLvle7zPnRaKlQCb6+IDBfXvddJ1oq5BH5WE7JXd/xwWilUKnJpYGM9a7dPk5mpfCWP18cmO+okdOtaKVwYHxm5ZP1wOWNPBuFneUfBTK2dHkzyEbhwfirco3NxOF+aqPw8rPMbzuHV34bhX+h4e6q6KnQ4ZM6ngrZyNlG9FXo7hfMvgp7zt7o8FXIDq52U2+FznbTKgovmgAsalq4mB0mQqjJYfvler98o6sWhevuYPh2C5jz4WD1ReMPR4soi4W91dmtXy7MK469o7mpvcLn8nRaSWPi9PzH/++FCXvW3LuXpoXxi6MllK1tqHtGLBMd0zccLYNtFR60W8T0wkqv7yTQVuGTfpfLuvRXkms3sxo7hQlx/yy7NayOO3Uq3MXExY148PFY6OZyYafwihqsXNJfGteoMCGXQoYfzxo1KmxSO2kkJvTLcXUq3BreraFnp3UqNLwT3aJPpnUqPNBjTV+CKDScFVv0t+pUaLiytegXq1BoCQoLKNRDYfVQWEChHgqrh8ICCvVQWD0UFlCoh8LqobCAQj0UVg+FBRTqobB6KCygUA+F1UNhAYV6KKweCgso1ENh9VBYQKEeCquHwkKAhe1SIf2UoaFwSP+/dB29FtTvUsbnH+Q3VxTDmxOq+zffskqJiOtFpZda+OV/M6uQKepLof0NWAAAAAAAAAAAAAAAAAAAAAAAAAAAgAr8Aj5RWY0PDbn2AAAAAElFTkSuQmCC"
+                class="lk" alt="Red Social 5"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <!--Nav var1 -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Empleados.html">Empleados</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sueldo.html">Sueldo Líquido</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="indemnizacion.html">Indemnización</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <br>
+<div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <!-- cuadro del lado izquierdo con el formulario -->
+                <div id="formulario">
+                    <h2>Formulario de Empleado</h2>
+                    <form id="employeeForm">
+                        <div class="form-group">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" class="form-control" id="nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="fecha">Fecha de Ingreso:</label>
+                            <input type="date" class="form-control" id="fecha" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="puesto">Puesto:</label>
+                            <input type="text" class="form-control" id="puesto" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="salario">Salario:</label>
+                            <input type="number" class="form-control" id="salario" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Guardar</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <!-- Segundo cuadro del lado izquierdo para la lista de empleados -->
+                <div id="listaEmpleados">
+                    <h2>Lista de Empleados</h2>
+                    <ul id="employeeList" class="list-group">
+                        <li class="list-group-item font-weight-bold">Nombre - Fecha de Ingreso - Puesto - Salario</li>
+                    </ul>
+                    <button id="eliminarPrimero" class="btn btn-danger mt-3">Eliminar Primero</button>
+                    <button id="eliminarUltimo" class="btn btn-danger mt-3 ml-2">Eliminar Último</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div id="cuadroDerecho">
+                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT42grpPBG2dmbttlOffJHGVO3W14zAzmhNz_WSV0upRw&s" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="bottom-space"></div>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="Js/empleados.js"></script>
+</body>
+
+</html>
